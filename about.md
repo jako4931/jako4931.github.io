@@ -60,7 +60,6 @@ Jupyter Notebook
 Jupyter Notebook is a web-based interactive computational environment for creating Jupyter notebook documents. Notebook document is a JSON document, following a versioned schema, and containing an ordered list of input/output cells which can contain and run python code. 
 When using HoloViews within a notebook document you get instant results when you run a cell, which simplifies the process of developing visualization applications.
 
-------
 Ressourcer
 ------
 
@@ -72,5 +71,15 @@ Plotting
 * Holoviews docs: <a href="http://holoviews.org/">http://holoviews.org/</a>
 * Holoviews Github issues: <a href="https://github.com/pyviz/holoviews/issues">https://github.com/pyviz/holoviews/issues</a>
 
-<a href="https://github.com/pyviz/holoviews/issues">https://github.com/pyviz/holoviews/issues</a>
+Flask
+------
+
+* Flask docs <a href="http://flask.pocoo.org/">http://flask.pocoo.org/</a>
+* Flask tutorial: <a href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world</a>
+* Flask-SqlAlchemy docs: <a href="https://flask-sqlalchemy.palletsprojects.com/en/2.x/">https://flask-sqlalchemy.palletsprojects.com/en/2.x/</a>
+* Flask-Bootstrap docs: <a href="https://pythonhosted.org/Flask-Bootstrap/">https://pythonhosted.org/Flask-Bootstrap/</a>
+* PyMySQL docs: <a href="https://pymysql.readthedocs.io/en/latest/">https://pymysql.readthedocs.io/en/latest//</a>
+* Embedding a Bokeh server in a flask application: <a href="https://github.com/bokeh/bokeh/blob/master/examples/howto/server_embed/templates/embed.html">https://github.com/bokeh/bokeh/blob/master/examples/howto/server_embed/templates/embed.html</a>
+
+<a href="https://github.com/bokeh/bokeh/blob/master/examples/howto/server_embed/templates/embed.html">https://github.com/bokeh/bokeh/blob/master/examples/howto/server_embed/templates/embed.html</a>
 
