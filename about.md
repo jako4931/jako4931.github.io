@@ -90,5 +90,21 @@ EDF
 * Test files: <a href="https://www.teuniz.net/edf_bdf_testfiles/">https://www.teuniz.net/edf_bdf_testfiles/</a>
 * EDF Browser - Desktop application: <a href="https://www.teuniz.net/edf_bdf_testfiles/">https://www.teuniz.net/edfbrowser/</a>
 
-<a href="https://www.teuniz.net/edf_bdf_testfiles/">https://www.teuniz.net/edfbrowser/</a>
+Python
+------
+
+w3schools: <a href="https://www.w3schools.com/python/">https://www.w3schools.com/python/</a>
+Tutorialspoint: <a href="https://tutorialspoint.com/python">https://tutorialspoint.com/python</a>
+Pipenv docs: <a href="https://docs.pipenv.org/en/latest/">https://docs.pipenv.org/en/latest/</a>
+numpy docs: <a href="https://www.numpy.org/">https://www.numpy.org/</a>
+pandas docs: <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a>
+pytest docs: <a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a>
+pytest video tutorial: <a href="https://www.youtube.com/watch?v=bbp_849-RZ4&t=695s">https://www.youtube.com/watch?v=bbp_849-RZ4&t=695s</a>
+Threading: <a href="https://realpython.com/intro-to-python-threading/">https://realpython.com/intro-to-python-threading/</a>
+Screeninfo library: <a href="https://github.com/rr-/screeninfo">https://github.com/rr-/screeninfo</a>
+Jupyter notebook video tutorial: <a href="https://www.youtube.com/watch?v=HW29067qVWk">https://www.youtube.com/watch?v=HW29067qVWk</a>
+Anaconda: <a href="https://www.anaconda.com/">https://www.anaconda.com/</a>
+PyCharm – Python IDE: <a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>
+
+<a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>
 
