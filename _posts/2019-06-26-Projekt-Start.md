@@ -11,4 +11,6 @@ We work with Scrum, and one of my favorite things about Scrum is the burndown ch
 
 The first sprint will most likely differ from the following ones as the group worked more or less together on everything we did this sprint. We decided to start the project working this way as group members lacked experience with the programming language and the tools we used. Because of that, the group can be sure that the other members are on the same page when we talk about the basic components of the system we are developing, and that all group members can read the code and understand what is happening.
 
-Though worki
+Though working like this has its pros, it also comes with some cons. If the whole team is working on the same backlog item, the other items are not being worked on, which slows down the development process. The only part we could split up the work during this sprint was while writing tests, but that was about it. Because of the cons, and as the team is getting more comfortable with python, the next sprint will be structured a bit differently with greater division of labor and less direct teamwork.
+
+![burndown](C:\Users\User\Desktop\Jupyter_notebook_pic){:class="img-responsive"}
