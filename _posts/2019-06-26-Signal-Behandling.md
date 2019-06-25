@@ -7,7 +7,7 @@ published: true
 
 **An illustrated post going into different types of signal processing filters, and how they can be useful for analyzing signals.**
 
-## [](#header-1)Filter
+## [](#header-2)Filter
 
 
 Other common types of filters:
