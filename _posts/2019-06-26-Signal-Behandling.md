@@ -10,3 +10,18 @@ published: true
 ## [](#header-2)Filtre
 
 
+### [](#header-3)High-Pass Filter
+
+
+#### [](#header-4Low-Pass Filter
+
+
+##### [](#header-5)Band-Pass Filter
+
+
+###### [](#header-6)Band-Stop Filter
+
+
+####### [](#header-7)Other signal variables
+
+
