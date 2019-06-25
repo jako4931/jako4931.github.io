@@ -101,6 +101,10 @@ Python
 * pytest video tutorial: <a href="https://www.youtube.com/watch?v=bbp_849-RZ4&t=695s">https://www.youtube.com</a>
 * Threading: <a href="https://realpython.com/intro-to-python-threading/">https://realpython.com/intro-to-python-threading/</a>
 * Screeninfo library: <a href="https://github.com/rr-/screeninfo">https://github.com</a>
+* Jupyter notebook video tutorial: <a href="https://www.youtube.com/watch?v=HW29067qVWk">https://www.youtube.com</a>
+* Anaconda: <a href="https://www.anaconda.com/">https://www.anaconda.com/</a>
+* PyCharm: <a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>
+
 
 <a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>
 
