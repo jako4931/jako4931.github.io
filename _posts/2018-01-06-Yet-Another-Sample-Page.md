@@ -1,124 +1,44 @@
 ---
-title: Yet Another Sample Page
+title: EDF Filer
 published: true
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# [](#header-1)EDF filer
 
-[Link to another page](another-page).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+A brief walk-through of problems that arose while getting data from Edf files, and reasoning for changing the approach from writing our own modules from scratch to using existing libraries.
 
 
-### Definition lists can be used with HTML syntax.
+The focus for the second sprint was to take signal data extrapolated from an Edf file and plot them out, and getting the file reader to work more efficiently. The first sprint was a little weird for the sake of the team working together on almost everything that we did. That did not apply as much in the second sprint. For the second sprint we split up the backlog items, and a team member spent most of the time looking at possible solutions to a problem that came up.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+Other members in my group went on to visualize the signals, while I looked at the performance of the Edf reader that we had built previously.
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+The first main challenge was rewriting the logic where the signals are read from the file and appended into arrays of data points. Everything functioned as it should and the output was valid, but the execution time for the process was insanely high, especially with larger files.
 
-```
-The final element.
-```
+Up until this point I had tested the code with smaller files. When I tried to process a significantly larger file with the same code the results were the following:
+
+![EDF1](\assets\EDF1.jpg)
+
+Even though the file has more than 3 times the amount of signals, and the recording is 3 times longer, the time the process takes is more than 2000 times longer than it takes to process the smaller file. We want our reader to be able to handle way larger files than the ‘large’ file that the current solution is struggling with, so something has to be done.
+
+I fixed this problem by using numpy functions that could do almost the same job, but way faster.
+
+The old solution:
+
+![EDF2](\assets\EDF2.jpg)
+
+The new solution:
+
+![EDF3](\assets\EDF3.jpg)
+
+Results for the same file that took 876 seconds before:
+
+![EDF4](\assets\EDF4.jpg)
+
+After accomplishing this, I had a talk with a teacher who encouraged us to abandon this approach of writing the file reader ourselves. His reasoning for it was that we would not be able to make one that could compete with existing libraries. He was correct. I looked into few libraries and found one called PyEdfLib, and after looking at it for a bit and trying it out, I decided to go with it instead. I still think that our attempt at making a reader on our own was a good idea, as it gave us understand how the file format works, and how it is read. This is good knowledge to have, both because I have a better understanding of the material I’m working with, and it will be beneficial in the future, and might help with understanding other file formats I might work with in the future.
+
+PyEdfLib, the library we chose, can handle large files significantly faster than our solution ever could. The reason being that PyEdfLib is built on top of a library for reading Edf files, and that library is written in C. Python is an interpreted language while C is a compiled language. There are more nuances to it and I have never worked with C, but smarter people than I say that this is imperative to speed as compiled languages can do operations with fewer machine instructions. The bottom line is, it is faster, and if we want to make a usable product, reducing the processing time for each part of the solution is going to result in a product that is nicer to use.
+
+Now that we are able to read Edf files and get all the important information from, we head for the next step in the process, which is visualizing the data.
+
+While I was doing this, the rest of my group was working on visualizing the data, which they accomplished, but the tool we chose to use for it is not up to the task so we have to change our approach to the problem, but more on that later.
+
