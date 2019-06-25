@@ -63,8 +63,8 @@ When using HoloViews within a notebook document you get instant results when you
 Plotting
 ------
 
-Pyviz docs: http://pyviz.org/
-Bokeh docs: https://bokeh.pydata.org/en/latest/
-Holoviews docs: http://holoviews.org/
-Holoviews Github issues: https://github.com/pyviz/holoviews/issues
+* Pyviz docs: <a href="http://pyviz.org/">dette er en test</a>
+* Bokeh docs: https://bokeh.pydata.org/en/latest/
+* Holoviews docs: http://holoviews.org/
+* Holoviews Github issues: https://github.com/pyviz/holoviews/issues
 
