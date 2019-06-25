@@ -15,5 +15,5 @@ Though working like this has its pros, it also comes with some cons. If the whol
 
 ![burndown](\assets\burndown.jpg)
 
-![](\assets\BDC.png)
+
 
