@@ -99,7 +99,8 @@ Python
 * pandas docs: <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a>
 * pytest docs: <a href="https://docs.pytest.org/en/latest/">https://docs.pytest.org/en/latest/</a>
 * pytest video tutorial: <a href="https://www.youtube.com/watch?v=bbp_849-RZ4&t=695s">https://www.youtube.com</a>
-
+* Threading: <a href="https://realpython.com/intro-to-python-threading/">https://realpython.com/intro-to-python-threading/</a>
+* Screeninfo library: <a href="https://github.com/rr-/screeninfo">https://github.com</a>
 
 <a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>
 
