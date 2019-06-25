@@ -60,3 +60,11 @@ Jupyter Notebook
 Jupyter Notebook is a web-based interactive computational environment for creating Jupyter notebook documents. Notebook document is a JSON document, following a versioned schema, and containing an ordered list of input/output cells which can contain and run python code. 
 When using HoloViews within a notebook document you get instant results when you run a cell, which simplifies the process of developing visualization applications.
 
+Plotting
+------
+
+Pyviz docs: http://pyviz.org/
+Bokeh docs: https://bokeh.pydata.org/en/latest/
+Holoviews docs: http://holoviews.org/
+Holoviews Github issues: https://github.com/pyviz/holoviews/issues
+
