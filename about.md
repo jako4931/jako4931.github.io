@@ -81,5 +81,14 @@ Flask
 * PyMySQL docs: <a href="https://pymysql.readthedocs.io/en/latest/">https://pymysql.readthedocs.io/en/latest//</a>
 * Embedding a Bokeh server in a flask application: <a href="https://github.com/bokeh/bokeh/blob/master/examples/howto/server_embed/templates/embed.html">https://github.com/bokeh/bokeh/blob/master/examples/howto/server_embed/templates/embed.html</a>
 
-<a href="https://github.com/bokeh/bokeh/blob/master/examples/howto/server_embed/templates/embed.html">https://github.com/bokeh/bokeh/blob/master/examples/howto/server_embed/templates/embed.html</a>
+EDF
+------
+
+* PyEdfLib docs: <a href="https://pyedflib.readthedocs.io/l">https://pyedflib.readthedocs.io/</a>
+* PyEdfLib source code: <a href="https://github.com/holgern/pyedflib/">https://github.com/holgern/pyedflib/</a>
+* Information about the EDF format: <a href="https://www.edfplus.info/">https://www.edfplus.info/</a>
+* Test files: <a href="https://www.teuniz.net/edf_bdf_testfiles/">https://www.teuniz.net/edf_bdf_testfiles/</a>
+* EDF Browser - Desktop application: <a href="https://www.teuniz.net/edf_bdf_testfiles/">https://www.teuniz.net/edfbrowser/</a>
+
+<a href="https://www.teuniz.net/edf_bdf_testfiles/">https://www.teuniz.net/edfbrowser/</a>
 
