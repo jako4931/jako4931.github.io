@@ -105,6 +105,15 @@ Python
 * Anaconda: <a href="https://www.anaconda.com/">https://www.anaconda.com/</a>
 * PyCharm: <a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>
 
+Signal Processing
 
-<a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>
+* Signal processing wiki: <a href="https://en.wikipedia.org/wiki/Signal_processing">https://en.wikipedia.org/wiki/Signal-processing</a>
+* High-pass filter wiki: <a href="https://en.wikipedia.org/wiki/High-pass_filter">https://en.wikipedia.org/wiki/Hp</a>
+* Low-pass filter wiki: <a href="https://en.wikipedia.org/wiki/Low-pass_filter">https://en.wikipedia.org/wiki/Lp</a>
+* Amplitude wiki: <a href="https://en.wikipedia.org/wiki/Amplitude">https://en.wikipedia.org/wiki/Amplitude</a>
+* Signal Processing filter wiki: <a href="https://en.wikipedia.org/wiki/Filter_(signal_processing)">https://en.wikipedia.org/wiki/Filter</a>
+* Butterworth filter wiki: <a href="https://en.wikipedia.org/wiki/Butterworth_filter">https://en.wikipedia.org/wiki/Butterworth_filter</a>
+* Video - Basics of signal processing: <a href="https://www.youtube.com/watch?v=WgJMjDh0nLU">https://www.youtube.com/</a>
+
+
 
