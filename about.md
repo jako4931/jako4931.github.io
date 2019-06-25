@@ -16,5 +16,6 @@ Difficulties in creating a single product that met the requirements forced us to
 * A seperate project can process, filter and visualize a signal. It can only do so with a dynamically generated sine curve as we didn't have time to implement it in the main project.
 
 Tools
+------
 
 
