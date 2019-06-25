@@ -94,6 +94,9 @@ Python
 ------
 
 * Tutorialspoint: <a href="https://tutorialspoint.com/python">https://tutorialspoint.com/python</a>
+* Pipenv docs: <a href="https://docs.pipenv.org/en/latest/">https://docs.pipenv.org/en/latest/</a>
+* numpy docs: <a href="https://www.numpy.org/">https://www.numpy.org/</a>
+* pandas docs: <a href="https://pandas.pydata.org/">https://pandas.pydata.org/</a>
 
 <a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>
 
