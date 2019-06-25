@@ -19,5 +19,3 @@ Difficulties in creating a single product that met the requirements forced us to
 
 Python
 ________
-Python is a programming language that has been around for over two decades. 
-There are many reasons for picking a programming language over another, but one of the requirements for this project are that it is to be written in python, and hence it shall be written in python.
