@@ -1,0 +1,10 @@
+---
+title: EDF Filer
+published: true
+---
+
+# [](#header-1)EDF filer'
+
+**A brief walk-through of problems that arose while getting data from Edf files, and reasoning for changing the approach from writing our own modules from scratch to using existing libraries.**
+
+
