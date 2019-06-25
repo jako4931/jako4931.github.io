@@ -93,7 +93,7 @@ EDF
 Python
 ------
 
-
+* Tutorialspoint: <a href="https://tutorialspoint.com/python">https://tutorialspoint.com/python</a>
 
 <a href="https://www.jetbrains.com/pycharm/">https://www.jetbrains.com/pycharm/</a>
 
