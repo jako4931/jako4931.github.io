@@ -64,3 +64,4 @@ The image below contains the output from our Band-Stop filter
 
 Apart from applying filters on signals, the visual output can be affected by manipulating other variables, such as the amplitude, phase, offset and frequency of a signal. Changing some of these variables can alter the information that the signal is supposed to convey, but in some situations it can help extract information from them or make them more readable. Example of such cases could be adjusting the offset when signals are crowded to make them stand out more or adjusting the amplitude to make minor fluctuations more visible.
 
+![](\assets\amplitude_phase_gif.gif)
