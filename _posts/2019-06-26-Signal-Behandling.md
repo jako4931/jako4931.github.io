@@ -19,16 +19,30 @@ Other common types of filters:
 
 ## [](#header-2)High-Pass Filter
 
+High pass filter is an electronic filter which lets through signals with higher frequency than a certain cutoff frequency, and dampens or attenuates signals with a frequency lower than the cutoff frequency.
+
+The image below contains the output from our HighPass filter 
+
 
 ### [](#header-3)Low-Pass Filter
 
+Low pass filter is an electronic filter that passes signals with a lower frequency than a certain cutoff frequency, and dampens or attenuates signals with a frequency higher than the cutoff frequency.
+
+The image below contains the output from our LowPass filter
 
 #### [](#header-4)Band-Pass Filter
 
+BandPass filter is a filter that passes frequencies within a specific certain range, and rejects frequencies outside that specific range.
+
+The image below contains the output from our BandPass filter
 
 ##### [](#header-5)Band-Stop Filter
 
+BandStop filter is a filter that attenuates frequencies inside of a certain range, but passes all other frequencies. It is the opposite of a BandPass filter that passes the frequencies within the range while rejecting the frequencies outside of the range.
+
+The image below contains the output from our Band-Stop filter 
 
 ###### [](#header-6)Other signal variables
 
+Apart from applying filters on signals, the visual output can be affected by manipulating other variables, such as the amplitude, phase, offset and frequency of a signal. Changing some of these variables can alter the information that the signal is supposed to convey, but in some situations it can help extract information from them or make them more readable. Example of such cases could be adjusting the offset when signals are crowded to make them stand out more or adjusting the amplitude to make minor fluctuations more visible.
 
