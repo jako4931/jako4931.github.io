@@ -13,9 +13,9 @@ For this project we chose to use Butterworth filters. Butterworth filter is a ty
 
 Other common types of filters:
 
-- Chebyshev type 1 – has a steeper roll-off and more passband ripples
-- Chebyshev type 2 – has a steeper roll-off and more stopband rippes
-- Elliptic – has a steeper roll-off and more ripples in both the passband and stopband
+* Chebyshev type 1 – has a steeper rolloff and more passband ripples
+* Chebyshev type 2 – has a steeper rolloff and more stopband rippes
+* Elliptic – has a steeper rolloff and more ripples in both the passband and stopband
 
 ## [](#header-2)High-Pass Filter
 
