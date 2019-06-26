@@ -17,30 +17,48 @@ Other common types of filters:
 * Chebyshev type 2:  has a steeper rolloff and more stopband rippes
 * Elliptic:  has a steeper rolloff and more ripples in both the passband and stopband
 
+![](\assets\othertypesonlyimage.jpg)
+
+
 ## [](#header-2)High-Pass Filter
 
 High pass filter is an electronic filter which lets through signals with higher frequency than a certain cutoff frequency, and dampens or attenuates signals with a frequency lower than the cutoff frequency.
 
+![](\assets\highpassfilterintro-no-text-wide.jpg)
+
 The image below contains the output from our HighPass filter 
 
+![](\assets\highpassfilteroutput.jpg)
 
 ### [](#header-3)Low-Pass Filter
 
 Low pass filter is an electronic filter that passes signals with a lower frequency than a certain cutoff frequency, and dampens or attenuates signals with a frequency higher than the cutoff frequency.
 
+![](\assets\lowpassfilterintro-no-text-wide.jpg)
+
 The image below contains the output from our LowPass filter
+
+![](\assets\lowpassfilteroutput.jpg)
 
 #### [](#header-4)Band-Pass Filter
 
 BandPass filter is a filter that passes frequencies within a specific certain range, and rejects frequencies outside that specific range.
 
+![](\assets\bandpassfilterintro-no-text-wide.jpg)
+
 The image below contains the output from our BandPass filter
+
+![](\assets\bandpassfilteroutput.jpg)
 
 ##### [](#header-5)Band-Stop Filter
 
 BandStop filter is a filter that attenuates frequencies inside of a certain range, but passes all other frequencies. It is the opposite of a BandPass filter that passes the frequencies within the range while rejecting the frequencies outside of the range.
 
+![](\assets\bandstopfilterintro-no-text-wide.jpg)
+
 The image below contains the output from our Band-Stop filter 
+
+![](\assets\bandstopfilteroutput.jpg)
 
 ###### [](#header-6)Other signal variables
 
